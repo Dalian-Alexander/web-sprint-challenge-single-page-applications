@@ -68,18 +68,17 @@
 .help-button .home-button{
   border: 1px solid grey;
 }
+div .page-container{
+  width:'0%'
+}
 .homepage-top-section{
   display: flex;
 }
-.pizza-link-container{
-  align-self: center;
-  justify-content: center;
-  margin-left: 7%;
-  margin-top: 3%;
-  
+div .pizza-link-container{
+  padding-top: 20%;
 }
 .pizza-title{
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   color: rgb(255, 255, 255);
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -93,15 +92,57 @@
   background-color: rgb(255, 67, 67);
   border-radius: 5px;
 }
+.content-title{
+  margin-top: 4%;
+  margin-right: 35%;
+}
 .first-row{
+  position: relative;
   display: flex;
   flex-flow: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: baseline;
 }
+
 .first-row>div:nth-child(odd){
   background-color: blanchedalmond;
+  border-radius: 2%;
 }
-.restaurant-1 .restaurant-2 .restaurant-3 p {
-  font-size: 1rem;
+.restaurant{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+div .restaurant{
+ 
+}
+.restaurant p {
+  font-size: 0.8rem;
+}
+.est-time {
+  background-color: green;
+}
+#pizza-form{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+form label{
+  text-align: left;
+  display: block;
+}
+form h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+form select {
+  width: 50%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: inline-block;
+}
+form input{
+  width: 10%;
 }
