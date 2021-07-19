@@ -16,7 +16,7 @@ const Home = () => {
                 }}>
                 <div className='pizza-link-container'>  
                     <h2 className='pizza-title'> You're favorite food, delivered while coding </h2>  
-                    <Link to='/pizza' className='pizza-link' id='order-pizza'>Pizza?</Link>
+                    <Link to='/pizza' id='order-pizza'>Pizza?</Link>
                 </div>
             </div>
             <div className='homepage-bottom-section'>
